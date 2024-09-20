@@ -641,5 +641,6 @@ form button:hover {
   body {
     max-width: 100%;
     overflow-x: hidden;
+    position: relative;
   }
 }
