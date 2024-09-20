@@ -527,6 +527,18 @@ form button:hover {
   .contactItem {
     gap: 20px;
   }
+  .heroHome {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/home-slider.jpg);
+  }
+  .heroAbout {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/about-hero1.jpg);
+  }
+  .heroContact {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/contact-hero.jpg);
+  }
 }
 
 /* For mobile view */
