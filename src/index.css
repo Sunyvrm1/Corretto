@@ -8,9 +8,6 @@
   margin: 0;
   padding: 0;
 }
-body, section{
-  overflow-x: hidden;
-}
 :root {
   --background1: #161616;
   --background2: #be9c79;
@@ -622,4 +619,7 @@ form button:hover{
     transform: translateX(0);
     opacity: 1;
   }
+  body{
+  overflow-x: hidden;
+}
 }
