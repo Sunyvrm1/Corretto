@@ -8,11 +8,8 @@
   margin: 0;
   padding: 0;
 }
-html{
-  overflow: hidden;
-}
-body{
-  overflow: hidden;
+body, header, nav, section{
+  overflow-x: hidden;
 }
 :root {
   --background1: #161616;
