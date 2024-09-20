@@ -431,9 +431,9 @@ footer {
   font-size: 14px;
   padding: 8px 0;
 }
-.contactDetail ul li::marker{
+.contactDetail ul li::marker {
   color: var(--background2);
-} 
+}
 .socialContact {
   display: flex;
   gap: 20px;
@@ -447,7 +447,8 @@ footer {
 .socialContact iconify-icon:hover {
   color: var(--background2);
 }
-input, textarea{
+input,
+textarea {
   padding: 20px 20px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -456,25 +457,26 @@ input, textarea{
   border-radius: 0px;
   border: 1px solid #989898;
 }
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
   outline: none;
   border: 1px solid #989898;
 }
-textarea{
+textarea {
   height: 120px;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
 }
-form div{
+form div {
   display: flex;
   gap: 20px;
   width: 100%;
 }
-form button{
+form button {
   padding: 20px 30px;
   text-transform: uppercase;
   font-size: 14px;
@@ -484,99 +486,112 @@ form button{
   background-color: var(--background2);
   border: 1px solid #fff;
 }
-form button:hover{
+form button:hover {
   background-color: var(--background1);
 }
 
-
 /* For tablet view */
 
-@media(max-width:1024px){
-  h1{
+@media (max-width: 1024px) {
+  h1 {
     font-size: 55px;
   }
-  h2{
+  h2 {
     font-size: 35px;
   }
-  .heroHome .contentWidth, .heroAbout .contentWidth, .heroContact .contentWidth{
+  .heroHome .contentWidth,
+  .heroAbout .contentWidth,
+  .heroContact .contentWidth {
     grid-template-columns: 1fr 10fr 1fr;
     background-position: right 100%;
   }
-  section{
+  section {
     padding: 80px 40px;
   }
-  .homeIntro{
+  .homeIntro {
     grid-template-columns: 1fr;
   }
-  .homeIntroInner{
+  .homeIntroInner {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
-  .aboutTableCont ul{
+  .aboutTableCont ul {
     column-gap: 25px;
   }
-  .menu-list li img{
+  .menu-list li img {
     margin-right: 20px;
   }
-  footer{
+  footer {
     grid-template-columns: 1fr 7fr 1fr;
   }
-  .contactItem{
+  .contactItem {
     gap: 20px;
   }
 }
 
 /* For mobile view */
 
-@media(max-width:600px){
-  header{
+@media (max-width: 600px) {
+  header {
     justify-content: center;
     padding: 20px;
   }
-  h1{
+  h1 {
     font-size: 30px;
   }
-  h2{
+  h2 {
     font-size: 28px;
   }
-  h3, .name, .price{
+  h3,
+  .name,
+  .price {
     font-size: 18px;
   }
-  .heroHome, .heroAbout, .heroContact{
+  .heroHome,
+  .heroAbout,
+  .heroContact {
     padding: 180px 20px 100px 20px;
-    background-position:  center;
+    background-position: center;
   }
-  .heroHome .contentWidth, .heroAbout .contentWidth, .heroContact .contentWidth, .homeIntroInner, .about .width, footer, .aboutTableCont ul, .contactItem{
+  .heroHome .contentWidth,
+  .heroAbout .contentWidth,
+  .heroContact .contentWidth,
+  .homeIntroInner,
+  .about .width,
+  footer,
+  .aboutTableCont ul,
+  .contactItem {
     grid-template-columns: 1fr;
   }
-  section{
+  section {
     padding: 60px 20px;
   }
-  .homeIntroInner1{
+  .homeIntroInner1 {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  footer{
+  footer {
     padding: 60px 20px;
   }
-  .footerEnd{
+  .footerEnd {
     padding: 30px 20px;
     grid-template-columns: 1fr;
   }
-  .footerEnd .width{
+  .footerEnd .width {
     flex-direction: column;
     gap: 25px;
   }
-  .contactItem{
+  .contactItem {
     gap: 60px;
   }
-  form div{
+  form div {
     flex-direction: column;
   }
-  input, textarea{
+  input,
+  textarea {
     padding: 15px;
   }
-  nav{
+  nav {
     position: absolute;
     background-color: #0e0d0dfa;
     width: 80%;
@@ -588,18 +603,21 @@ form button:hover{
     opacity: 0;
     transition: all 0.8s ease;
   }
-  nav ul{
+  nav ul {
     flex-direction: column;
     gap: 50px;
   }
-  .heroHome{
-    background-image: linear-gradient(90deg, var(--background1), #0000), url(/src/assets/home-slider.jpg);
+  .heroHome {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/home-slider.jpg);
   }
-  .heroAbout{
-    background-image: linear-gradient(90deg, var(--background1), #0000), url(/src/assets/about-hero1.jpg);
+  .heroAbout {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/about-hero1.jpg);
   }
-  .heroContact{
-    background-image: linear-gradient(90deg, var(--background1), #0000), url(/src/assets/contact-hero.jpg);
+  .heroContact {
+    background-image: linear-gradient(90deg, var(--background1), #0000),
+      url(/src/assets/contact-hero.jpg);
     background-position: left;
   }
   .active .navIcon ion-icon[name="close-outline"] {
@@ -608,7 +626,7 @@ form button:hover{
   .active .navIcon ion-icon[name="menu-outline"] {
     display: none;
   }
-  .navIcon{
+  .navIcon {
     display: flex;
     position: absolute;
     right: 20px;
@@ -619,10 +637,10 @@ form button:hover{
     transform: translateX(0);
     opacity: 1;
   }
-  body{
-  overflow-x: hidden;
-}
-html{
-  overflow-x: hidden;
-}
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    overflow-x: hidden;
+  }
 }
