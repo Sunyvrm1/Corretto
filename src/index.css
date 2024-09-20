@@ -637,10 +637,9 @@ form button:hover {
     transform: translateX(0);
     opacity: 1;
   }
+  html,
   body {
-    overflow-x: hidden;
-  }
-  html {
+    max-width: 100%;
     overflow-x: hidden;
   }
 }
